@@ -1,5 +1,7 @@
 This thing allows you to program (easily) ATMega328 and ATtin85 AVR microcontrollers. I made it for the Adafruit ISP programmer, but it has a universal interface. Read and and fun.
 
+PS. I made it all in Kicad.
+
 Copyright (c) 2012 Jonathan Whitten
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
