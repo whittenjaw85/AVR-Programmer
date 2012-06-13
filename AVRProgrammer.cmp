@@ -1,52 +1,80 @@
-Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Sun 08 Jan 2012 12:00:06 AM EST
+Cmp-Mod V01 Created by CvPcb (2012-01-18 BZR 3371)-testing date = Fri 30 Mar 2012 10:02:14 PM EDT
 
 BeginCmp
 TimeStamp = /4E9A1E1D;
 Reference = C1;
 ValeurCmp = 0.1u;
-IdModule  = SM0805;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7661A9;
+Reference = C2;
+ValeurCmp = 27pf;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F76617B;
+Reference = C3;
+ValeurCmp = 27pf;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F726302;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9A1E83;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = SM0805;
+IdModule  = U0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9A1E3E;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = SM0805;
+IdModule  = U0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F091826;
-Reference = IC1;
-ValeurCmp = ATMEGA32-P;
+TimeStamp = /4F766DE1;
+Reference = P1;
+ValeurCmp = 40PIN_component;
 IdModule  = DIP-40__600;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E9A1BF2;
-Reference = J1;
-ValeurCmp = AVR-ISP-6;
-IdModule  = pin_array_3x2;
+TimeStamp = /4F766386;
+Reference = P2;
+ValeurCmp = jumper;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9A1E87;
 Reference = R1;
 ValeurCmp = 180;
-IdModule  = SM0805;
+IdModule  = U0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9A1E45;
 Reference = R2;
-ValeurCmp = R;
-IdModule  = SM0805;
+ValeurCmp = 470;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F766492;
+Reference = X1;
+ValeurCmp = OSCILLATOR;
+IdModule  = HC-49SMD;
 EndCmp
 
 EndListe
