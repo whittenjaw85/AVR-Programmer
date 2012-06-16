@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-18 BZR 3371)-testing date = Fri 30 Mar 2012 10:02:14 PM EDT
+Cmp-Mod V01 Genere par PcbNew le Fri 15 Jun 2012 11:26:40 PM EDT
 
 BeginCmp
 TimeStamp = /4E9A1E1D;
@@ -32,21 +32,28 @@ BeginCmp
 TimeStamp = /4E9A1E83;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = U0805;
+IdModule  = led-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9A1E3E;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = U0805;
+IdModule  = led-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDBF9AD;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F766DE1;
 Reference = P1;
 ValeurCmp = 40PIN_component;
-IdModule  = DIP-40__600;
+IdModule  = ZIF-40;
 EndCmp
 
 BeginCmp
@@ -68,6 +75,20 @@ TimeStamp = /4E9A1E45;
 Reference = R2;
 ValeurCmp = 470;
 IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDBF9A7;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDBF498;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = MS-108;
 EndCmp
 
 BeginCmp

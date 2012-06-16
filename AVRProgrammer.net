@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 30 Mar 2012 10:02:14 PM EDT
+# EESchema Netlist Version 1.1 created  Fri 15 Jun 2012 11:19:07 PM EDT
 (
  ( /4E9A1E1D U0805 C1 0.1u
   ( 1 VCC )
@@ -14,19 +14,23 @@
  )
  ( /4F726302 pin_array_3x2 CON1 AVR-ISP-6
   ( 1 /miso )
-  ( 2 VCC )
+  ( 2 N-000005 )
   ( 3 /sck )
   ( 4 /mosi )
   ( 5 /rst )
   ( 6 GND )
  )
- ( /4E9A1E83 U0805 D1 LED
-  ( 1 N-000020 )
+ ( /4E9A1E83 LED-0805 D1 LED
+  ( 1 N-000028 )
   ( 2 GND )
  )
- ( /4E9A1E3E U0805 D2 LED
-  ( 1 N-000018 )
+ ( /4E9A1E3E LED-0805 D2 LED
+  ( 1 N-000024 )
   ( 2 GND )
+ )
+ ( /4FDBF9AD LED-0805 D3 LED
+  ( 1 N-000029 )
+  ( 2 /led_test )
  )
  ( /4F766DE1 DIP-40__600 P1 40PIN_component
   ( 1 /rst )
@@ -39,7 +43,7 @@
   ( 8 GND )
   ( 9 /rst )
   ( 10 /clk2 )
-  ( 11 ? )
+  ( 11 /led_test )
   ( 12 GND )
   ( 13 ? )
   ( 14 ? )
@@ -76,11 +80,19 @@
  )
  ( /4E9A1E87 U0805 R1 180
   ( 1 /mosi )
-  ( 2 N-000020 )
+  ( 2 N-000028 )
  )
  ( /4E9A1E45 U0805 R2 470
   ( 1 VCC )
-  ( 2 N-000018 )
+  ( 2 N-000024 )
+ )
+ ( /4FDBF9A7 U0805 R3 470
+  ( 1 VCC )
+  ( 2 N-000029 )
+ )
+ ( /4FDBF498 MS-108 SW1 SPST
+  ( 1 N-000005 )
+  ( 2 VCC )
  )
  ( /4F766492 HC-49SMD X1 OSCILLATOR
   ( 1 /clk2 )
@@ -122,6 +134,15 @@ $component D2
  LED-1206
  LEDV
 $endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
 $component R1
  R?
  SM0603
@@ -130,6 +151,13 @@ $component R1
  SM1206
 $endlist
 $component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
  R?
  SM0603
  SM0805

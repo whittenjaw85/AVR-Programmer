@@ -1,12 +1,14 @@
 Drill report for /home/jon/KicadFiles/AVRProgrammer/AVRProgrammer.brd
-Created on Fri 30 Mar 2012 10:13:45 PM EDT
+Created on Sat 16 Jun 2012 05:28:40 AM EDT
 Selected Drill Unit: Imperial (")
 
 Drill report for through holes :
-T1  0.032"  0.81mm  (40 holes)
-T2  0.040"  1.02mm  (8 holes)
+T1  0.040"  1.02mm  (8 holes)
+T2  0.045"  1.14mm  (40 holes)
+T3  0.082"  2.08mm  (1 hole)
+T4  0.082"  2.08mm  (1 hole)
 
-total plated holes count 48
+total plated holes count 50
 
 
 Drill report for Not Plated through holes :
