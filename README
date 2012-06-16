@@ -1,4 +1,4 @@
-This thing allows you to program (easily) ATMega328 and ATtin85 AVR microcontrollers. I made it for the Adafruit ISP programmer, but it has a universal interface. Read and and fun.
+The AVR UsbTiny ZIF tool allows you to program (easily) ATMega328 and ATtin85 AVR microcontrollers. I made it for the Adafruit ISP programmer, but it has a universal interface. Read and and fun.
 
 PS. I made it all in Kicad.
 
